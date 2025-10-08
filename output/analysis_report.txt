@@ -1,0 +1,13 @@
+Health Data Report
+-------------------
+Total Readings: 50000
+
+Averages:
+  Heart Rate: 80.1 bpm
+  Systolic BP: 125.0 mmHg
+  Glucose Level: 99.9 mg/dL
+
+Abnormal Readings:
+  High Heart Rate: 12386
+  High Blood Pressure: 16180
+  High Glucose: 16258
