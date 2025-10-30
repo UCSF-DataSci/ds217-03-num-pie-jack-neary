@@ -89,14 +89,14 @@ def generate_report(stats, abnormal, total_readings):
     """
     # TODO: Create a formatted report string using f-strings
     report = (
-        f"Health Data Report\n"
+        f"Health Sensor Analysis Report\n"
         f"-------------------\n"
-        f"Total Readings: {total_readings}\n\n"
-        f"Averages:\n"
+        f"  Total Readings: {total_readings}\n\n"
+        f"  Averages:\n"
         f"  Heart Rate: {stats['avg_heart_rate']:.1f} bpm\n"
         f"  Systolic BP: {stats['avg_systolic_bp']:.1f} mmHg\n"
         f"  Glucose Level: {stats['avg_glucose']:.1f} mg/dL\n\n"
-        f"Abnormal Readings:\n"
+        f"  Abnormal Readings:\n"
         f"  High Heart Rate: {abnormal['high_heart_rate']}\n"
         f"  High Blood Pressure: {abnormal['high_blood_pressure']}\n"
         f"  High Glucose: {abnormal['high_glucose']}\n"
